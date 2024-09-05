@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_StarFragment"
+        android:icon="@drawable/ic_star"
+        android:title="Stars" />
+    <item
+        android:id="@+id/nav_Locationfragment"
+        android:icon="@drawable/ic_location"
+        android:title="Location" />
+    <item
+        android:id="@+id/nav_Educationfragment"
+        android:icon="@drawable/ic_education"
+        android:title="Education" />
+    <item
+        android:id="@+id/nav_SearchFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+</menu>

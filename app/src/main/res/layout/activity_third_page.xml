@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context=".ThirdPageActivity">
+
+    <!-- Skip button --> r
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:background="@drawable/cardfocus"
+        android:text="SKIP"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Map and Logo Text -->
+        <ImageView
+            android:id="@+id/map_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/indiamaplogo"
+            android:contentDescription="Maharashtra Map" />
+
+
+    </LinearLayout>
+
+    <!-- Icons Row (List, Calendar, Book, Newspaper) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:weightSum="4">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="List Icon"
+            android:src="@drawable/ic_list" />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_calender"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:contentDescription="Calendar Icon" />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_book"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:contentDescription="Book Icon" />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="Newspaper Icon"
+            android:src="@drawable/ic_newspaper" />
+    </LinearLayout>
+
+    <!-- Text Below Icons -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|| जय महाराष्ट्र ||"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:gravity="center" />
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFA500"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
